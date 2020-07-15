@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript console.assert() Method</h1>
+
+<p>Press F12 on your keyboard to view the message in the console view.</p>
+
+<script>
+
+console.assert(document.getElementById("demo"), "You have no element with ID 'demo'");
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript console.clear() Method</h1>
+
+<p>Press F12 on your keyboard to view the message in the console view.</p>
+
+<p>Click the button to clear the console:</p>
+
+<button onclick="myFunction()">Clear Console</button>
+
+<script>
+
+console.log("Hello! Press the button to clear the console!");
+
+function myFunction() {
+  console.clear();
+}
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript console.count() Method</h1>
+
+<p>Press F12 on your keyboard to view the message in the console view.</p>
+
+<script>
+
+for (i = 0; i < 10; i++) {
+  console.count();
+}
+
+</script>
+
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript console.error() Method</h1>
+
+<p>Press F12 on your keyboard to view the message in the console view.</p>
+
+<script>
+
+console.error("You made a mistake");
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript console.group() Method</h1>
+
+<p>Press F12 on your keyboard to view the message in the console view.</p>
+
+<script>
+
+console.log("Hello world!");
+console.group();
+console.log("Hello again, this time inside a group!");
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript console.groupCollapsed() Method</h1>
+
+<p>Press F12 on your keyboard to view the message in the console view.</p>
+
+<script>
+
+console.log("Hello world!");
+console.groupCollapsed();
+console.log("Hello again, this time inside a collapsed group!");
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript console.groupEnd() Method</h1>
+
+<p>Press F12 on your keyboard to view the message in the console view.</p>
+
+<script>
+
+console.log("Hello world!");
+console.group();
+console.log("Hello again, this time inside a group!");
+console.groupEnd();
+console.log("and we are back.");
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript console.info() Method</h1>
+
+<p>Press F12 on your keyboard to view the message in the console view.</p>
+
+<script>
+
+console.info("Hello world!");
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript console.log() Method</h1>
+
+<p>Press F12 on your keyboard to view the message in the console view.</p>
+
+<script>
+
+console.log("Hello world!");
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript console.table() Method</h1>
+
+<p>Press F12 on your keyboard to view the table in the console view.</p>
+
+<p>If the table is not visible, try refreshing the page.</p>
+
+<script>
+
+console.table(["Audi", "Volvo", "Ford"]);
+
+</script>
+
+<p><strong>Tip:</strong> you can sort the table by clicking the column names.</p>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript console.time() Method</h1>
+
+<p>Press F12 on your keyboard to view the result in the console view.</p>
+
+<script>
+
+console.time();
+for (i = 0; i < 100000; i++) {
+  // some code
+}
+console.timeEnd();
+
+</script>
+
+<p>Time the number of milliseconds it takes to perform a for-loop a hundred thousand times.</p>
+
+<p><strong>Note:</strong> the console.time() method starts the timer and the console.timeEnd() method ends the timer and writes the result in the console view.</p>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript console.time() Method</h1>
+
+<p>Press F12 on your keyboard to view the result in the console view.</p>
+
+<script>
+
+console.time();
+for (i = 0; i < 100000; i++) {
+  // some code
+}
+console.timeEnd();
+
+</script>
+
+<p>Time the number of milliseconds it takes to perform a for-loop a hundred thousand times.</p>
+
+<p><strong>Note:</strong> the console.time() method starts the timer and the console.timeEnd() method ends the timer and writes the result in the console view.</p>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript console.trace() Method</h1>
+
+<p>Press F12 on your keyboard to view the result in the console view.</p>
+
+<p>By clicking the button, a function will be executed, which will execute another function, which will execute the console.trace() method, which will display this trace in the console.view.</p>
+
+<button onclick="myFunction()">Start Trace</button>
+
+<script>
+
+function myFunction() {
+  myOtherFunction();
+}
+
+function myOtherFunction() {
+  console.trace();
+}
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript console.warn() Method</h1>
+
+<p>Press F12 on your keyboard to view the message in the console view.</p>
+
+<script>
+
+console.warn("This is a warning!");
+
+</script>
+
+</body>
+</html>
+
